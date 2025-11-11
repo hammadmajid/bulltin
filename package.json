@@ -1,0 +1,19 @@
+{
+  "name": "bulltin",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc --outDir dist",
+    "start": "pnpm run build && node dist/index.js"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.19.0",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mssql": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/mssql": "^9.1.8",
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3"
+  }
+}
