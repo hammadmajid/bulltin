@@ -9,7 +9,7 @@
   "packageManager": "pnpm@10.19.0",
   "dependencies": {
     "dotenv": "^17.2.3",
-    "express": "^5.1.0",
+    "express": "^5.2.0",
     "mssql": "^12.1.0"
   },
   "devDependencies": {
