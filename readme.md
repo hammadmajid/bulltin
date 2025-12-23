@@ -12,22 +12,22 @@ Create a digital web application where faculty can post announcements, and stude
 
 * Faculty module: post, edit, delete announcements.
 * Student module: view announcements, like, comment.
-* Notification system: alerts for new posts.
+* Notification system: alerts for new posts. (Right now the notifications are only limited to native browser notifications and in app /notifications page)
 * Web-based interface: accessible on desktop and mobile.
 
 Excluded: private messaging or unrelated social media features.
 
 ## Description
 
-A web platform where faculty can create and share announcements with a title, description, and timestamp. Students can like and comment. User activity is tracked and the interface is clean and searchable. Authentication restricts posting to faculty and interactions to registered students. Data is stored in SQLite. Backend uses Express.js; frontend uses React.
+A web platform where faculty can create and share announcements with a title, description, and timestamp. Students can like and comment. User activity is tracked and the interface is clean and searchable. Authentication restricts posting to faculty and interactions to registered students.
 
 ## Tools and Technologies
 
-* **Frontend:** React
+* **Frontend:** HTML/CSS
 * **Backend:** Express.js
-* **Database:** SQLite
-* **Language:** JavaScript
-* **Libraries/Frameworks:** Node.js, Axios, React Router
+* **Database:** MS SQL Server Express
+* **Language:** TypeScript
+* **Libraries/Frameworks:** Node.js
 * **Environment:** Web browser
 
 ## Methodology
@@ -35,13 +35,9 @@ A web platform where faculty can create and share announcements with a title, de
 1. Requirement Analysis: define functional and non-functional needs.
 2. Design Phase: wireframes, ERD, database schema.
 3. Development:
-
    * Backend API (CRUD for posts, likes, comments)
-   * React UI components
+   * CSS Classes for site design (e.g, `btn-primary`, `badge-outline`, `card`, `card-footer` etc)
    * Authentication and subscription logic
-4. Testing: unit and integration tests.
-5. Deployment: host frontend and backend.
-6. Maintenance: updates and bug fixes.
 
 ## ERD (Entity Relationship Diagram)
 
